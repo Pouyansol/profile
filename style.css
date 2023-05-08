@@ -1,0 +1,106 @@
+h1 {
+  color: rgba(75, 85, 85, 0.203);
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: rgba(3, 55, 55, 0.594);
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(191, 199, 184);
+  color: rgba(17, 33, 33, 0.594);
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-align: justify;
+  margin: 20px;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 2px 2px;
+  margin: 20px;
+}
+
+.link {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(16, 188, 139);
+  font-size: x-large;
+  margin: 5px;
+
+}
+
+.link:hover{
+  background-color: beige;
+}
+
+.in-line li {
+  display: inline;
+}
+
+.in-line {
+  padding: 0cm;
+}
+
+.container {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.text-main {
+  text-align: justify;
+  margin: auto;
+  padding: 20px;
+  margin: 20px
+}
+
+.button-square {
+  background-color: rgb(154, 156, 163);
+  font-family: monospace;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 8px 16px;
+  margin: 20px;
+
+}
+
+.button-square:hover {
+  background-color: rgb(95, 179, 184);
+}
+
+.card-white{
+  background-color: aliceblue;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
